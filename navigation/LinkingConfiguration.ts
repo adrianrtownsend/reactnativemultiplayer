@@ -22,6 +22,26 @@ export default {
               TabTwoScreen: 'two',
             },
           },
+          Home: {
+            screens: {
+              HomeScreen: 'home',
+            },
+          },
+          Game: {
+            screens: {
+              GameScreen: 'game/:sessionId?',
+            },
+          },
+          Login: {
+            screens: {
+              LoginScreen: 'login',
+            },
+          },
+          Signup: {
+            screens: {
+              SignupScreen: 'signup',
+            },
+          },
         },
       },
       NotFound: '*',
